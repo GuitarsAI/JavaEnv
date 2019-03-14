@@ -1,2 +1,3 @@
-curl -L https://github.com/SpencerPark/IJava/releases/download/v1.2.0/ijava-1.2.0.zip > ijava-kernel.zip
-unzip ijava-kernel.zip -d ijava-kernel && cd ijava-kernel 
+mkdir temp_for_zip_extract
+unzip ijava-1.2.0.zip -d temp_for_zip_extract
+cd temp_for_zip_extract
