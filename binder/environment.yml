@@ -5,19 +5,17 @@ channels:
   - anaconda
   - defaults
 dependencies:
-  - ipywidgets
-  - widgetsnbextension
-  - rise
-  - sos
   - openjdk
+  - sos
+  - rise
+  - widgetsnbextension
+  - ipywidgets
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - jupyterlab
+  - jupyterlab_launcher
+  
   - pip:
     - sos-notebook
     - sos-python
     - jupyter_contrib_nbextensions
-    - jupyter_contrib_nbextensions
-    - jupyter_nbextensions_configurator
-    - jupyterlab
-    - jupyterlab_launcher
-    
-
-
