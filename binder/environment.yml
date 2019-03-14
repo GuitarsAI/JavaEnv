@@ -18,4 +18,3 @@ dependencies:
   - pip:
     - sos-notebook
     - sos-python
-    - jupyter_contrib_nbextensions
