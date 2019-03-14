@@ -5,13 +5,11 @@ channels:
   - anaconda
   - defaults
 dependencies:
-   - ipywidgets
-   - widgetsnbextension
-   - rise
-   - sos
-   - openjdk
-   
-  
+  - ipywidgets
+  - widgetsnbextension
+  - rise
+  - sos
+  - openjdk
   - pip:
     - sos-notebook
     - sos-python
