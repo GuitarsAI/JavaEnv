@@ -1,0 +1,25 @@
+name: Java-GuitarsAI
+channels:
+  - conda-forge
+  - damianavila82
+  - anaconda
+  - defaults
+dependencies:
+   - ipywidgets
+   - widgetsnbextension
+   - rise
+   - sos
+   - openjdk
+   
+  
+  - pip:
+    - sos-notebook
+    - sos-python
+    - jupyter_contrib_nbextensions
+    - jupyter_contrib_nbextensions
+    - jupyter_nbextensions_configurator
+    - jupyterlab
+    - jupyterlab_launcher
+    
+
+
